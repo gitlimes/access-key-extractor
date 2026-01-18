@@ -1,7 +1,7 @@
 name: goreleaser
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   release:
     types: [published]  
 

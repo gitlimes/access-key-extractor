@@ -1,11 +1,9 @@
 name: goreleaser
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main,
-      - 'releases/**'
+  workflow-dispatch:
+  release:
+    types: [published]  
 
 permissions:
   contents: write
